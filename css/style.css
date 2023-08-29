@@ -30,8 +30,8 @@ h6 {
 }
 .navbar-dark .navbar-nav .nav-link {
   font-family: "Amatic SC", sans-serif !important;
-  padding: 8px 16px;
-  font-size: 1.2rem;
+  padding: 10px 16px;
+  font-size: 1.5rem;
   color: white;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -39,6 +39,9 @@ h6 {
   color: black;
 }
 
+.navbar-toggler {
+  margin: 10px;
+}
 /*bg section*/
 
 .bg {
@@ -64,7 +67,7 @@ h6 {
   position: absolute;
   top: 40%;
   left: 50%;
-  font-size: 5rem;
+  font-size: 6.5rem;
   transform: translate(-50%, -40%);
   color: white;
   text-align: center;
@@ -74,10 +77,10 @@ h6 {
   top: 65%;
   left: 50%;
   transform: translateX(-50%);
-  padding: 6px;
+  padding: 10px;
   background: black;
   color: white;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   cursor: pointer;
 }
 .bg h3:hover {
@@ -93,7 +96,7 @@ h6 {
 /*menu section*/
 #menu {
   background: black;
-  padding-inline: 19rem;
+  padding-inline: 25rem;
   padding-block: 4rem;
 }
 @media (max-width: 992px) {
@@ -110,8 +113,8 @@ h6 {
 }
 #menu h2 {
   text-align: center;
-  padding-bottom: 40px;
-  font-size: 3rem;
+  padding-bottom: 4rem;
+  font-size: 4rem;
 }
 #menu .row:nth-child(2) {
   padding: 0;
@@ -121,7 +124,8 @@ h6 {
 #menu h3 {
   margin: 0;
   cursor: pointer;
-  padding: 10px;
+  padding: 20px;
+  font-size: 2rem;
 }
 #menu .pd {
   padding: 0;
@@ -147,7 +151,7 @@ h6 {
 }
 #menu .flavours ul li {
   color: black;
-  font-size: 24px;
+  font-size: 2.2rem;
 }
 #menu .flavours ul li .hot {
   background-color: tomato;
@@ -185,7 +189,7 @@ h6 {
 /*About section*/
 #about {
   background: maroon;
-  padding-inline: 19rem;
+  padding-inline: 25rem;
   padding-top: 4rem;
   opacity: 90%;
   padding-bottom: 2rem;
@@ -196,14 +200,14 @@ h6 {
   }
 }
 #about h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
   padding-bottom: 40px;
   text-align: center;
 }
 #about p {
   color: white;
-  font-size: 24px;
+  font-size: 2.2rem;
 }
 .chef {
   margin-block: 20px;
@@ -216,20 +220,22 @@ h6 {
   color: white;
 }
 .chef img {
-  width: 120px;
-  height: 80px;
+  width: 200px;
+  height: 130px;
   border-radius: 50%;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 #about .row:nth-child(2) {
   padding: 0;
 }
 #about .row:nth-child(2) h3 {
+  font-size: 3rem;
   color: white;
   font-weight: bold;
   margin-block: 30px;
 }
 #about .row:nth-child(2) p {
+  font-size: 2rem !important;
   color: white;
   font-size: 18px;
   padding-bottom: 10px;
@@ -255,7 +261,7 @@ h6 {
   }
 }
 #contact h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   margin-bottom: 40px;
   color: white;
@@ -263,14 +269,14 @@ h6 {
 #contact p {
   text-shadow: 0.5px 0.5px white;
   color: white;
-  font-size: 24px;
+  font-size: 2.2rem;
 }
 #contact p span {
   background-color: black;
   padding: 5px;
 }
 #contact .reserve {
-  font-size: 36px;
+  font-size: 2.2rem;
   padding-block: 10px;
 }
 #contact input {
@@ -278,7 +284,7 @@ h6 {
   padding-block: 16px;
   width: 100%;
   margin-block: 10px;
-  font-size: 18px;
+  font-size: 2rem;
 }
 #contact button {
   color: #000 !important;
@@ -286,7 +292,7 @@ h6 {
   margin-block: 10px;
   width: 100%;
   padding: 10px;
-  font-size: 18px;
+  font-size: 2rem;
   border: none;
 }
 
@@ -301,11 +307,12 @@ h6 {
 .footer h3 {
   text-align: center;
   padding-block: 40px;
+  font-size: 2.2rem;
   color: white;
 }
 footer h3 a {
   color: white;
-  font-size: 32px;
+  font-size: 2.2rem;
 }
 footer h3 a:hover {
   color: tomato;
